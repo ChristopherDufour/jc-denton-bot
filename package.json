@@ -1,0 +1,8 @@
+{
+  "name": "jc-denton-bot",
+  "version": "0.0.0",
+  "description": "JC Denton Discord bot",
+  "main": "index.js",
+  "author": "Chris Dufour",
+  "license": "MIT"
+}
