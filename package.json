@@ -4,5 +4,15 @@
   "description": "JC Denton Discord bot",
   "main": "index.js",
   "author": "Chris Dufour",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "fix": "./node_modules/.bin/eslint . --fix",
+    "run": "./index.js"
+  }
 }
