@@ -2,7 +2,7 @@
   "name": "jc-denton-bot",
   "version": "0.0.0",
   "description": "JC Denton Discord bot",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Chris Dufour",
   "license": "MIT",
   "devDependencies": {
@@ -17,7 +17,8 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
     "fix": "./node_modules/.bin/eslint . --fix",
-    "run": "./index.js",
+    "server": "./server.js",
     "test": "./node_modules/.bin/eslint ."
-  }
+  },
+  "dependencies": {}
 }
