@@ -1,1 +1,6 @@
-extends: airbnb-base
+extends: standard
+rules:
+  #Blatantly stolen from https://github.com/AGhost-7/sheet-cli
+  space-before-function-paren:
+    - error
+    - never
